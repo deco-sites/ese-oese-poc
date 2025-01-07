@@ -42,7 +42,20 @@ export type AvailableIcons =
   | "Visa"
   | "WhatsApp"
   | "XMark"
-  | "Zoom";
+  | "Zoom"
+  | "shop"
+  | "icon-search"
+  | "icon-profile"
+  | "icon-phone"
+  | "icon-shop"
+  | "facebook"
+  | "instagram"
+  | "pinterest"
+  | "linkedin"
+  | "youtube"
+  | "tiktok"
+  | "whatsapp"
+  | "spotify";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**

@@ -1,42 +1,165 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
       },
-      {
+      "categories": [
+        {
+          "subcategories": [],
+          "label": "NOVEDADES"
+        },
+        {
+          "subcategories": [],
+          "label": "COLLECIÓN"
+        },
+        {
+          "subcategories": [],
+          "label": "CALZADO"
+        },
+        {
+          "subcategories": [],
+          "label": "ACESSORIOS"
+        },
+        {
+          "subcategories": [],
+          "label": "WE CARE"
+        },
+        {
+          "subcategories": [],
+          "label": "GIFT GUIDE"
+        },
+        {
+          "subcategories": [],
+          "label": "EDITORIAL"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+        "backgroundImage": "https://data.decoassets.com/ese-oese-poc/2e52c6e4-596a-4068-931c-3cd44ee67562/Layers-Of-Us-02.jpg",
+        "link1": "https://www.eseoese.com/es/novedades-coleccion-mujer",
+        "link2": "https://www.eseoese.com/es/novedades-coleccion-mujer"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Gallery.tsx",
+        "images": [
+          {
+            "image": "https://data.decoassets.com/ese-oese-poc/7b52e271-69be-4017-9753-76ff75566822/Captura-de-Tela-2024-12-19-as-15.50.14.png",
+            "url": "https://www.eseoese.com/es/camisas-blusas",
+            "title": "CAMISAS Y BLUSAS"
+          },
+          {
+            "image": "https://data.decoassets.com/ese-oese-poc/ed712581-54fc-41c6-9f52-34683e03ab88/Captura-de-Tela-2024-12-19-as-15.50.37.png",
+            "title": "CARDIGANS Y JERSEIS",
+            "url": "https://www.eseoese.com/es/cardigans-jerseys"
+          },
+          {
+            "image": "https://data.decoassets.com/ese-oese-poc/fb019ba4-656c-4b70-a208-e88bd3f269a1/Captura-de-Tela-2024-12-19-as-15.51.07.png",
+            "title": "ABRIGOS Y CHAQUETAS",
+            "url": "https://www.eseoese.com/es/chaquetas-americanas"
+          },
+          {
+            "image": "https://data.decoassets.com/ese-oese-poc/d7716d02-7d0b-47b7-bb0f-1472a577e686/Captura-de-Tela-2024-12-19-as-15.51.34.png",
+            "title": "VESTIDOS",
+            "url": "https://www.eseoese.com/es/vestidos-mujer"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter.tsx",
+        "title": "SUSCRÍBETE A LA NEWSLETTER",
+        "subtitle": "Suscríbete y recibe un regalo el día de tu cumpleaños",
+        "buttonLabel": "SUSCRIBIRCE",
+        "footerTitle": "LAS COLECCIONES DE ESEOESE",
+        "footerText": "La firma de moda eseOese se caracteriza por diseñar, producir y cuidar cada una de sus prendas. Colecciones que se producen un 80% en la península y se trabajan de una manera casi artesanal, con especial detalle al diseño y patronaje. Reconocidos por los cárdigans y jerséis de punto, pero también por una colección de ropa, complementos y zapatos con los que transmitimos un estilo casual, pensado para el día a día. Comodidad, durabilidad y un estilo fácil, con tejidos de calidad y prendas de tendencia holgada que conviven con las tendencias de temporada."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/MyFooter.tsx",
+        "categories": [
+          {
+            "links": [
+              {
+                "title": "Envíos",
+                "link": "https://www.eseoese.com/es/shipping-information"
+              },
+              {
+                "title": "Cambíos y devoluciones",
+                "link": "https://www.eseoese.com/es/cambios-devoluciones"
+              }
+            ],
+            "title": "Guia de compra"
+          },
+          {
+            "links": [
+              {
+                "title": "Guia de tallas",
+                "link": "https://www.eseoese.com/es/guia-de-tallas"
+              },
+              {
+                "title": "Cuidados de las prendas",
+                "link": "https://www.eseoese.com/es/cuidados-prendas"
+              }
+            ],
+            "title": "Ayuda"
+          },
+          {
+            "links": [
+              {
+                "title": "Manifesto",
+                "link": "https://www.eseoese.com/es/manifesto"
+              },
+              {
+                "title": "Localizador de tiendas",
+                "link": "https://www.eseoese.com/es/tiendas-eseoese"
+              }
+            ],
+            "title": "Welcome to eseOese"
+          },
+          {
+            "links": [
+              {
+                "title": "Politica de cookies",
+                "link": "https://www.eseoese.com/es/politica-de-cookies"
+              }
+            ],
+            "title": "Empresa"
+          }
+        ],
+        "bottomLinks": [
+          {
+            "title": "Aviso Legal"
+          },
+          {
+            "title": "Política de privacidad y cookies"
+          },
+          {
+            "title": "Condiciones de compra"
+          },
+          {
+            "title": "Configurar"
+          }
+        ]
+      }
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
